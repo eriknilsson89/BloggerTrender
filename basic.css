@@ -1,0 +1,139 @@
+body{
+	background: #616161;
+}
+#content
+{
+	width: 960px;
+
+	min-height: 500px;
+	margin: -80px auto 0 auto;
+	padding-bottom: 80px;
+	background: #989898;
+
+}
+header
+{
+	position: relative;
+	left: 150px;
+	top: 20px;
+	width: 300px;
+	height: 100px;
+}
+header h1
+{
+	font-family: Myriad Pro, Verdana;
+	font-size: 55px;
+	color: #0096ff;
+}
+#content form
+{
+	width: 500px;
+	height: 100px;
+	margin: auto;
+	background: #616161;
+	position: relative;
+	z-index: 1;
+}
+#content form label
+{
+	display: block;
+	font-family: Asenine, Verdana;
+	font-size: 35px;
+	color: white;
+	margin-left: 20px;
+}
+#content form p
+{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 20px;
+	color: white;
+	margin: 10px 5px 0 20px;
+}
+#content form #searchField
+{
+	width: 233px;
+	height: 30px;
+	margin: 0 3px;
+	font-size: 20px;
+}
+#content form #searchButton
+{
+	height: 30px;
+	position: absolute;
+	background: #0096ff;
+	margin-left: 5px;
+}
+#content #searchResult
+{
+	background: #616161;
+	width: 500px;
+	height: 250px;
+	margin: auto;
+	position: relative;
+}
+#wordListUl
+{
+	margin-top: -20px;
+}
+#content #searchResult #wordListUl h2
+{
+	margin-left: 30px;
+	color: white;
+	font-size: 20px;
+}
+
+#wordListUl ul
+{
+	list-style: none;
+	color: white;
+}
+
+#content #searchResult p
+{
+	position: absolute;
+	left: 20px;
+	font-size: 20px;
+}
+.fb-comments
+{
+	position: relative;
+	left: 230px;
+	margin: auto;
+	width: 500px;
+	min-height: 100px;
+	height: auto;
+}
+.fb-like
+{
+	position: relative;
+	top: 35px;
+	left: 553px;
+	z-index: 2;
+}
+.logOutLink
+{
+	position: relative;
+	top: 36px;
+	left: 520px;
+	z-index: 2;
+	text-decoration: none;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 13px;
+}
+.logOutLink:link { color: White; }
+.logOutLink:visited { color: White; }
+.logOutLink:hover { color: White; text-decoration: underline;}
+#login-article
+{
+	font-size: 20px;
+	font-family: Verdana, Arial, Sans-serif;
+}
+#login-article a
+{
+	color: white;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 20px;
+}
+#login-article a:link { color: White; }
+#login-article a:visited { color: White; }
+#login-article a:hover { color: White; font-weight: bolder;}
