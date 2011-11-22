@@ -1,6 +1,6 @@
 ﻿<?php session_start();
 //inkluderar kontrollern till skraparn
-	require_once("webscraper/masterController.php");
+	require_once("bloggertrender/masterController.php");
 	require_once("facebook/src/facebook.php");
 	$mc = new masterController();
 	//content innehåller resultatet från skrapningen
